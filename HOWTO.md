@@ -5,6 +5,6 @@
 
 ## Packages
 
-* Import uniitest package
+* Import unitest package
 * Import CSV file
 * For test cases import OS
