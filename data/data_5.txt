@@ -1,0 +1,5 @@
+Bangalore, Full Time,	Web,	312000
+Bangalore, Full Time,	Backend,	700000
+Bangalore, Full Time,	Backend,	700000
+Bangalore, Full Time,	Mobile,	900000
+Bangalore, Full Time,	Backend,	800000
