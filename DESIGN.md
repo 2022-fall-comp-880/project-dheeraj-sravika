@@ -5,6 +5,8 @@
 ## Contributors: Sai Dheeraj Kistapuram & Sravika Sailada
 ## Date: 11/30/2022
 
+## Project Modules: `apps`, `tests` & `data`
+
 ## Packages to be imported: `unitest`, `csv`, `os`
 
 ## Classes: `init()` and `str()`
