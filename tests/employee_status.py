@@ -68,3 +68,29 @@ class EmployeeStatus(unittest.TestCase):
             },
         }
         self.assertEqual(actual_result, expected_result)
+
+    def test_fifty_entries(self):
+        """Test case 2 using fifty.csv with fifty rows."""
+        actual_result = self.tasks_50.result()
+        expected_result = {
+            "Bangalore": {
+                "Full Time": {
+                    "Android",
+                    "Backend",
+                    "Database",
+                    "Frontend",
+                    "IOS",
+                    "Mobile",
+                    "Python",
+                    "SDE",
+                    "Testing",
+                    "Web",
+                },
+                "Intern": {"Frontend"},
+            },
+            "Chennai": {
+                "Full Time": {"Java", "SDE", "Python", "Android", "Frontend"},
+                "Intern": {"SDE", "Python"},
+            },
+        }
+        self.assertEqual(actual_result, expected_result)
