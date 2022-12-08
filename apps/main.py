@@ -12,6 +12,14 @@ class Data:
     """Data class reads the CSV file and
     stores the data into list of lists."""
 
+    def __init__(self, dataset) -> None:
+        """Initializes the class attributes"""
+        self.dataset = dataset
+
+    def __str__(self):
+        """Convert to string representation."""
+        return self.dataset
+
     def read(self, file: str):
         data = []
         with open(file, newline="", encoding="utf-8") as f:
@@ -20,4 +28,3 @@ class Data:
             for row in op:
                 data.append(row)
         return data
-
