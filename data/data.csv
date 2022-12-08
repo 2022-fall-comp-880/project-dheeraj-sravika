@@ -1,0 +1,251 @@
+Rating,Company Name,Job Title,Salary,Salaries Reported,Location,Employment Status,Job Roles
+3.3,1985,Web Developer,312000,1,Bangalore,Full Time,Web
+4.1,660000,Python Backend Developer,700000,1,Bangalore,Full Time,Backend
+4,660000,Python Backend Developer,700000,1,Bangalore,Full Time,Backend
+4,-,Mobile App Developer,900000,1,Bangalore,Full Time,Mobile
+4.1,[24]7.ai,Backend Developer,800000,1,Bangalore,Full Time,Backend
+4.1,[24]7.ai,Database Administrator (Database Administrator),600000,2,Bangalore,Full Time,Database
+4.1,[24]7.ai,Front End Developer,252000,1,Bangalore,Full Time,Frontend
+4.1,[24]7.ai,Senior Software Development Engineer In Test,100000,6,Bangalore,Full Time,SDE
+4.1,[24]7.ai,Software Development Engineer In Test,200000,2,Bangalore,Full Time,SDE
+4.1,[24]7.ai,Software Development Engineer I,800000,2,Bangalore,Full Time,SDE
+4.1,[24]7.ai,Software Development Engineer,900000,2,Bangalore,Full Time,SDE
+4.1,[24]7.ai,Web Developer,300000,5,Bangalore,Full Time,Web
+4,11Signals Technologies,Front-End Developer - Intern,96000,1,Bangalore,Intern,Frontend
+4.8,20K Group,Test Engineer,264000,1,Bangalore,Full Time,Testing
+4.2,21North Europ Assistance,Android Developer,400000,1,Bangalore,Full Time,Android
+3.7,22feet,Senior Android Developer,900000,2,Bangalore,Full Time,Android
+3.7,22feet,Sr. Front End Developer,700000,1,Bangalore,Full Time,Frontend
+3.7,22feet,Senior IOS Developer,800000,1,Bangalore,Full Time,IOS
+3.7,22feet,Web Developer,1140000,2,Bangalore,Full Time,Web
+4.5,25K DIGITAL,Web Developer,348000,1,Bangalore,Full Time,Web
+3.8,2COMS,Database Administrator,1000000,1,Bangalore,Full Time,Database
+4.5,2nd Year,Front End Developer,348000,1,Bangalore,Full Time,Frontend
+4.3,314e,Python Developer,468000,1,Bangalore,Full Time,Python
+4.3,314e,Software Development Engineer,180000,1,Bangalore,Full Time,SDE
+4.3,360 Nautica,Software Engineer (Ios Developer),324000,1,Bangalore,Full Time,IOS
+3.8,2018,Core Java Developer,708000,1,Chennai,Full Time,Java
+4.7,1 Crore Projects,Java Developer,144000,2,Chennai,Full Time,Java
+4.3,10Decoders Consultancy Services,Java Developer,120000,1,Chennai,Full Time,Java
+4.3,10Decoders Consultancy Services,Python Developer,132000,1,Chennai,Full Time,Python
+4.3,10Decoders Consultancy Services,Python Junior Developer,180000,1,Chennai,Full Time,Python
+4,1st Risk Solutions,Senior Front End Developer,456000,1,Chennai,Full Time,Frontend
+3.8,2COMS,Front End Developer,700000,1,Chennai,Full Time,Frontend
+3.8,2COMS,Java Developer,1000000,1,Chennai,Full Time,Java
+5,360degreeinfo,Front End Web Developer,240000,1,Chennai,Full Time,Frontend
+4.3,3Edge,Software Engineer - Java Developer,372000,1,Chennai,Full Time,Java
+3.5,3i Infotech,Senior Java Developer,600000,1,Chennai,Full Time,Java
+4.2,"50,000feet",Java Developer,840000,1,Chennai,Full Time,Java
+4.3,7Eleven Arthasastra Technology,Android Developer,228000,2,Chennai,Full Time,Android
+4.3,7Eleven Arthasastra Technology,Java Developer,144000,2,Chennai,Full Time,Java
+4.3,7Eleven Arthasastra Technology,Java,216000,1,Chennai,Full Time,Java
+3.8,7HCL Technologies,Java Tech Lead,600000,1,Chennai,Full Time,Java
+4.2,9Logic Technologies Inc,Android Developer,996000,1,Chennai,Full Time,Android
+3.7,Aashi,Software Development Engineer In Test (SDET),348000,1,Chennai,Full Time,SDE
+4.8,AB2 Consulting,Senior Java Developer,696000,1,Chennai,Full Time,Java
+3.9,Abbott,Software Development Engineer (SDE),576000,1,Chennai,Full Time,SDE
+3.9,ABC,Python Developer - Intern,300000,1,Chennai,Intern,Python
+3.9,ABC,Software Development Engineer - Intern,144000,1,Chennai,Intern,SDE
+3.9,ABC,Software Development Engineer In Test (SDET),1000000,3,Chennai,Full Time,SDE
+3.8,Abc (India),Software Development Engineer In Test (SDET),1400000,1,Chennai,Full Time,SDE
+3.5,ABC Techno Labs,Front End Developer,468000,1,Chennai,Full Time,Frontend
+3.9,700,Test Engineer,696000,1,Hyderabad,Full Time,Testing
+3.9,17544,Full Stack Java Developer,1900000,1,Hyderabad,Full Time,Java
+4,(no)name,Junior Java Developer,2700000,1,Hyderabad,Full Time,Java
+4,(no)name,Junior Java Developer - Intern,200000,1,Hyderabad,Intern,Java
+3.5,1Digitals,AEM Front End Developer - Intern,108000,1,Hyderabad,Intern,Frontend
+3.7,21st Century Software Solutions,Senior Java Developer,204000,1,Hyderabad,Full Time,Java
+3.9,24 Seven Talent,Senior Java Developer,1140000,1,Hyderabad,Full Time,Java
+3.8,2COMS,Java Developer,600000,1,Hyderabad,Full Time,Java
+3.8,2COMS,Senior Java Developer,500000,1,Hyderabad,Full Time,Java
+4.4,3000 Corp.,Java Developer - Intern,300000,1,Hyderabad,Intern,Java
+3.5,3i Infotech,Test Engineer,500000,1,Hyderabad,Full Time,Testing
+3.5,7 Classes,Android Developer - Intern,348000,1,Hyderabad,Intern,Android
+3,A Plus Topper,Junior Python Developer,180000,1,Hyderabad,Full Time,Python
+3,A Plus Topper,Python/Django Developer - Intern,108000,1,Hyderabad,Intern,Python
+3,A Plus Topper,Junior Python/Django Developer,200000,1,Hyderabad,Full Time,Python
+4.7,A&A Innovative Solutions,Test Engineer,500000,3,Hyderabad,Full Time,Testing
+3.5,Ã“rama,Front End Developer,1200000,1,Hyderabad,Full Time,Frontend
+2.9,"AAA Northern California, Nevada & Utah",Test Engineer,1500000,1,Hyderabad,Full Time,Testing
+4,Aadolf,Backend Developer,2900000,1,Hyderabad,Full Time,Backend
+3.9,Aapti techno soft Pvt Ltd,Senior Java Developer,432000,1,Hyderabad,Full Time,Java
+5,Aarif & Associates,Software Development Engineer (SDE),600000,1,Hyderabad,Full Time,SDE
+3.6,AB InBev,Software Development Engineer - Intern,456000,1,Hyderabad,Intern,SDE
+4,ABB,Test Engineer,1100000,1,Hyderabad,Full Time,Testing
+3.9,ABC,Senior Android Developer,800000,1,Hyderabad,Full Time,Android
+3.9,ABC,Backend Engineer,1200000,1,Hyderabad,Full Time,Backend
+4,(no)name,Software Development Engineer - Intern,180000,1,Jaipur,Intern,SDE
+3.9,ABC,Software Development Engineer (SDE),300000,1,Jaipur,Full Time,SDE
+4.1,Abhishek Industries,Software Development Engineer In Test (SDET),288000,1,Jaipur,Full Time,SDE
+3.8,Adnate IT Solutions LLP,Software Development Engineer (SDE),456000,1,Jaipur,Full Time,SDE
+3.7,Aha 3D Innovations,Software Development Engineer - Intern,84000,1,Jaipur,Intern,SDE
+4.1,Airbus,Software Development Engineer,1200000,1,Jaipur,Full Time,SDE
+4.1,All On Block,Software Development Engineer,800000,1,Jaipur,Full Time,SDE
+3.8,Amazon,Software Development Engineer (SDE),468000,2,Jaipur,Full Time,SDE
+3.8,Anonymous,Software Development Engineer,400000,1,Jaipur,Full Time,SDE
+4.3,AU Small Finance Bank,Software Development Engineer (SDE),1400000,1,Jaipur,Full Time,SDE
+5,Auggen 21,Software Development Engineer - Intern,1300000,1,Jaipur,Intern,SDE
+3.2,AYN InfoTech,Software Development Engineer,180000,1,Jaipur,Full Time,SDE
+3.8,Bsnl,Software Development Engineer (SDE) - Intern,252000,1,Jaipur,Intern,SDE
+3.8,Capgemini,Software Development Engineer In Test (SDET),600000,1,Jaipur,Full Time,SDE
+2.9,Celeb Luxury,Software Development Engineer - Intern,288000,1,Jaipur,Intern,SDE
+5,CodeMyMobile,Software Development Engineer,400000,1,Jaipur,Full Time,SDE
+3.8,Cognizant Technology Solutions,Software Development Engineer (SDE),576000,1,Jaipur,Full Time,SDE
+4,Db,Software Development Engineer,600000,1,Jaipur,Full Time,SDE
+3.8,DealShare,Software Development Engineer (SDE) II,2400000,1,Jaipur,Full Time,SDE
+4.1,Dotsquares,Software Development Engineer (SDE) II,400000,1,Jaipur,Full Time,SDE
+4.7,DSDG,Software Development Engineer (SDE) II,1152000,1,Jaipur,Full Time,SDE
+4.3,Extern Labs,Software Development Engineer,276000,1,Jaipur,Full Time,SDE
+4.1,Free Lance,Software Development Engineer,660000,1,Jaipur,Full Time,SDE
+4,Freescale Semiconductor,Software Development Engineer,324000,1,Jaipur,Full Time,SDE
+4.1,GameChange Solutions,Software Development Engineer,1200000,1,Jaipur,Full Time,SDE
+3.9,ABCDEF,Software Development Engineer,500000,1,Kerala,Full Time,SDE
+4.3,Advenser,Software Development Engineer,300000,1,Kerala,Full Time,SDE
+4.6,ASAP Kerala,ASAP Software Development Engineer,1138368,1,Kerala,Full Time,SDE
+3,Asiet,Software Development Engineer (SDE),200000,1,Kerala,Full Time,SDE
+2.6,Aten,Software Development Engineer,468000,1,Kerala,Full Time,SDE
+4.2,Bharti Airtel,Software Development Engineer In Test (SDET),200000,1,Kerala,Full Time,SDE
+3.9,Bhaskaran Pillai Technologies,Software Development Engineer,800000,1,Kerala,Full Time,SDE
+3.9,BIJISH KUMAR,Software Development Engineer,312000,1,Kerala,Full Time,SDE
+4.4,Boston Consulting Group,Software Development Engineer,144000,1,Kerala,Full Time,SDE
+3.3,CareStack (Good Methods Global),Software Development Engineer,400000,7,Kerala,Full Time,SDE
+3.3,CareStack (Good Methods Global),Software Development Engineer (SDE),400000,2,Kerala,Full Time,SDE
+3.3,CareStack (Good Methods Global),Software Development Engineer In Test (SDET),400000,2,Kerala,Full Time,SDE
+3.3,CareStack (Good Methods Global),Software Development Engineer II,1300000,1,Kerala,Full Time,SDE
+3.3,CareStack (Good Methods Global),Software Development Engineer (SDE) II,1100000,1,Kerala,Full Time,SDE
+3.3,CareStack (Good Methods Global),Software Development Engineer (SDE1),696000,1,Kerala,Full Time,SDE
+3.3,CareStack (Good Methods Global),Software Development Engineer-1,400000,1,Kerala,Full Time,SDE
+3.9,CFD Schuck,Software Development Engineer (SDE) Contractor,480000,1,Kerala,Contractor,SDE
+3.8,Cognizant Technology Solutions,Software Development Engineer,588000,1,Kerala,Full Time,SDE
+3.8,Cognizant Technology Solutions,Senior Software Development Engineer,700000,1,Kerala,Full Time,SDE
+3.8,Cognizant Technology Solutions,Software Development Engineer In Test Engineer and Selenium Automation Engineer,1000000,1,Kerala,Full Time,SDE
+3.1,Conduent,Software Development Engineer,516000,1,Kerala,Full Time,SDE
+3.4,CRMantra,Software Development Engineer,600000,1,Kerala,Full Time,SDE
+2.9,Cycloides,Software Development Engineer,204000,1,Kerala,Full Time,SDE
+2.8,dâ€™Katia Software,Software Development Engineer (SDE),300000,1,Kerala,Full Time,SDE
+4.4,Dexlock,Software Development Engineer,312000,1,Kerala,Full Time,SDE
+4,(no)name,Software Development Engineer - Intern,650000,1,Kolkata,Intern,SDE
+3.9,ABC,Software Development Engineer - Intern,60000,1,Kolkata,Intern,SDE
+3.9,ABC,Software Development Engineer,228000,1,Kolkata,Full Time,SDE
+3.9,ABC,Software Development Engineer (SDE),1176000,1,Kolkata,Full Time,SDE
+4.6,ABXY,Software Development Engineer (SDE),1250000,1,Kolkata,Full Time,SDE
+4.1,Accenture,Software Development Engineer (SDE) - Intern,150000,1,Kolkata,Intern,SDE
+4.1,Accolite Digital,Software Development Engineer (SDE),600000,1,Kolkata,Full Time,SDE
+4.7,Adrobit Technologies,Software Development Engineer,480000,2,Kolkata,Full Time,SDE
+4.8,Agnik,Software Development Engineer (SDE),300000,1,Kolkata,Full Time,SDE
+4.8,Agnos,Software Development Engineer (SDE),750000,2,Kolkata,Full Time,SDE
+4,Akash oberoi,Software Development Engineer (SDE),240000,1,Kolkata,Full Time,SDE
+3.8,Amazon,Software Development Engineer,100000,1,Kolkata,Full Time,SDE
+3.8,Amazon,Software Development Engineer In Test (SDET),390000,2,Kolkata,Full Time,SDE
+3.8,Amazon,Software Development Engineer (SDE),9850000,1,Kolkata,Full Time,SDE
+3.8,Amazon,Software Development Engineer (SDE) - Intern,2050000,1,Kolkata,Intern,SDE
+3.8,Amazon,Amazon Software Development Engineer,1150000,1,Kolkata,Full Time,SDE
+4.2,Amit Kumar Choudhary,Software Development Engineer (SDE),600000,1,Kolkata,Full Time,SDE
+4.2,Applied Research Works,Software Development Engineer,900000,6,Kolkata,Full Time,SDE
+4.2,Applied Research Works,Software Development Engineer I,950000,9,Kolkata,Full Time,SDE
+4.2,Applied Research Works,Software Development Engineer (SDE),900000,5,Kolkata,Full Time,SDE
+4.2,Applied Research Works,Software Development Engineer II,1450000,1,Kolkata,Full Time,SDE
+4.2,Applied Research Works,Sr Software Development Engineer,1700000,1,Kolkata,Full Time,SDE
+4.2,Applied Research Works,Software Development Engineer-III,1700000,1,Kolkata,Full Time,SDE
+3.5,ARC Document Solutions,Software Development Engineer,1650000,1,Kolkata,Full Time,SDE
+4,Arjak Mondal,Software Development Engineer,216000,1,Kolkata,Full Time,SDE
+3.9,ABC,Software Development Engineer,500000,1,Madhya Pradesh,Full Time,SDE
+3.9,ABC,Software Development Engineer (SDE),600000,1,Madhya Pradesh,Full Time,SDE
+3.9,ABC,Software Development Engineer In Test (SDET),300000,1,Madhya Pradesh,Full Time,SDE
+3.9,ADARSH DEVELOPERS,Software Development Engineer,200000,1,Madhya Pradesh,Full Time,SDE
+4.1,AdColony,Software Development Engineer In Test (SDET),100000,1,Madhya Pradesh,Full Time,SDE
+3.8,Amazon,Software Development Engineer (SDE) - Intern,696000,1,Madhya Pradesh,Intern,SDE
+3.8,Amazon,Software Development Engineer (SDE),200000,1,Madhya Pradesh,Full Time,SDE
+3.8,Amazon,Software Development Engineer In Test (SDET),211200,1,Madhya Pradesh,Full Time,SDE
+3.8,Amazon,Software Development Engineer In Test (SDET) - Intern,348000,1,Madhya Pradesh,Intern,SDE
+3.9,Amdocs,Software Development Engineer (SDE),600000,1,Madhya Pradesh,Full Time,SDE
+3.8,Amity,Software Development Engineer In Test (SDET),200000,1,Madhya Pradesh,Full Time,SDE
+4.7,Appointy,Software Development Engineer,600000,1,Madhya Pradesh,Full Time,SDE
+4.7,Appointy,Software Development Engineer - Intern,288000,1,Madhya Pradesh,Intern,SDE
+4.1,Ashwani Hospital,Software Development Engineer In Test (SDET),700000,1,Madhya Pradesh,Full Time,SDE
+3.9,Ayan khan,Software Development Engineer In Test (SDET),396000,1,Madhya Pradesh,Full Time,SDE
+3.7,AZURE HR,Software Development Engineer In Test (SDET),1116000,1,Madhya Pradesh,Full Time,SDE
+3.9,Bengal tiger,Software Development Engineer (SDE),200000,1,Madhya Pradesh,Full Time,SDE
+3.7,Cazoo,Software Development Engineer In Test (SDET),500000,1,Madhya Pradesh,Full Time,SDE
+4.7,Chapter247,Software Development Engineer/Hacker,132000,1,Madhya Pradesh,Full Time,SDE
+4.3,Cisco Systems,Software Development Engineer In Test (SDET),1300000,1,Madhya Pradesh,Full Time,SDE
+3.9,cjdhj,Software Development Engineer (SDE),700000,1,Madhya Pradesh,Full Time,SDE
+5,Code Emission,Software Development Engineer - Intern,756000,1,Madhya Pradesh,Intern,SDE
+3.8,Cognizant Technology Solutions,Software Development Engineer In Test (SDET),120000,1,Madhya Pradesh,Full Time,SDE
+4.2,College Internship Program,Software Development Engineer (SDE) - Intern,240000,1,Madhya Pradesh,Intern,SDE
+5,CViewSurvey,Software Development Engineer,564000,1,Madhya Pradesh,Full Time,SDE
+3.9,-,Software Development Engineer,100000,1,Mumbai,Full Time,SDE
+4,(no)name,Software Development Engineer (SDE),1200000,1,Mumbai,Full Time,SDE
+3.5,3i Infotech,Software Development Engineer (SDE),948000,1,Mumbai,Full Time,SDE
+3.9,63 moons technologies,Sr Software Development Engineer,900000,1,Mumbai,Full Time,SDE
+4,A.P. Nonweiler,Software Development Engineer In Test (SDET),1152000,1,Mumbai,Full Time,SDE
+4.5,AAA Apartment Staffing,Software Development Engineer In Test (SDET) - Contractor,1000000,1,Mumbai,Contractor,SDE
+3.9,Aakash Educational Services,Software Development Engineer In Test (SDET),1140000,1,Mumbai,Full Time,SDE
+3.8,Aasaanjobs.com,Senior Software Development Engineer,1400000,1,Mumbai,Full Time,SDE
+2.7,Abacus Peripherals,Software Development Engineer,336000,1,Mumbai,Full Time,SDE
+4,ABB,Software Development Engineer In Test (SDET),300000,1,Mumbai,Full Time,SDE
+3.9,ABC,Software Development Engineer,500000,1,Mumbai,Full Time,SDE
+3.9,ABC,Software Development Engineer,1000000,1,Mumbai,Full Time,SDE
+3.9,ABC,Software Development Engineer (SDE),700000,3,Mumbai,Full Time,SDE
+3.9,ABC,Software Development Engineer In Test (SDET),264000,1,Mumbai,Full Time,SDE
+3.9,ABC,Software Development Engineer In Test (SDET) - Contractor,500000,1,Mumbai,Contractor,SDE
+3.9,ABC,Software Development Engineer In Test (SDET),1100000,1,Mumbai,Full Time,SDE
+3.9,ABC Unified School District,Software Development Engineer In Test (SDET) - Intern,1188000,1,Mumbai,Intern,SDE
+4,"Abc,(India)",Software Development Engineer (SDE),800000,1,Mumbai,Full Time,SDE
+3.7,abcd,Software Development Engineer,348000,1,Mumbai,Full Time,SDE
+3.7,abcd,Software Development Engineer (SDE),600000,1,Mumbai,Full Time,SDE
+3.9,ABCDEF,Software Development Engineer (SDE),1200000,1,Mumbai,Full Time,SDE
+3.9,abcdefghijkl,Software Development Engineer In Test (SDET),1000000,1,Mumbai,Full Time,SDE
+4.2,Abhay Techno Services,Software Development Engineer In Test (SDET),600000,1,Mumbai,Full Time,SDE
+4.6,Abzooba,Software Development Engineer In Test (SDET),1600000,1,Mumbai,Full Time,SDE
+3.7,Accelya Group,Software Development Engineer,400000,1,Mumbai,Full Time,SDE
+4,10,IOS & Android Developer,684000,1,New Delhi,Full Time,Android
+4,(no)name,Software Development Engineer - Intern,288000,1,New Delhi,Intern,SDE
+4,....,Software Development Engineer (SDE),12000,1,New Delhi,Full Time,SDE
+4.5,.Kreate,Android Developer,180000,2,New Delhi,Full Time,Android
+4.5,.Kreate,Software Development Engineer,400000,1,New Delhi,Full Time,SDE
+4.5,@1800,Backend Engineer,324000,1,New Delhi,Full Time,Backend
+3.6,100Plus (India),Software Development Engineer - Intern,120000,1,New Delhi,Intern,SDE
+4.8,1Gen,Front End Developer,288000,1,New Delhi,Full Time,Frontend
+4.8,1Gen,Senior IOS Developer,600000,1,New Delhi,Full Time,IOS
+4.2,1K Kirana Bazaar,Android Developer,800000,1,New Delhi,Full Time,Android
+4.2,1K Kirana Bazaar,Android Developer - Intern,180000,1,New Delhi,Intern,Android
+3.9,1mg,Backend Engineer,100000,2,New Delhi,Full Time,Backend
+3.9,1mg,Software Development Engineer,1200000,2,New Delhi,Full Time,SDE
+3.9,1mg,Software Development Engineer - Intern,348000,1,New Delhi,Intern,SDE
+3.9,1mg,Software Development Engineer II,1900000,4,New Delhi,Full Time,SDE
+3.9,1mg,Software Development Engineer (SDE),1100000,3,New Delhi,Full Time,SDE
+3.9,1mg,Software Development Engineer In Test (SDET),200000,3,New Delhi,Full Time,SDE
+3.9,1mg,Software Development Engineer I,1000000,2,New Delhi,Full Time,SDE
+3.9,1mg,Software Development Engineer (SDE) - Intern,348000,1,New Delhi,Intern,SDE
+2.6,1Tab,Senior Backend Developer,1200000,1,New Delhi,Full Time,Backend
+3.6,24x7 Internet Technologies,Android Developer,144000,1,New Delhi,Full Time,Android
+3.8,2COMS,Front End Developer,1100000,1,New Delhi,Full Time,Frontend
+3.1,3 Marketing Pillars,Android Developer,216000,1,New Delhi,Full Time,Android
+4.4,300 Plus Consultant,Front End Developer,300000,1,New Delhi,Full Time,Frontend
+4,360 Degree Info-Dynamics,IOS Developer,700000,1,New Delhi,Full Time,IOS
+4,"(X,Y,Z) Architecture & Design",Software Development Engineer In Test (SDET),1000000,1,Pune,Full Time,SDE
+3.9,3dplm Software Solution,Software Development Engineer,228000,4,Pune,Full Time,SDE
+3.9,3dplm Software Solution,Senior Software Development Engineer,1000000,1,Pune,Full Time,SDE
+3.5,3PS Media India,Front End Developer,200000,1,Pune,Full Time,Frontend
+4.5,3RI Technologies,Front End Developer,132000,1,Pune,Full Time,Frontend
+4.8,6sense,Software Development Engineer In Test (SDET),1300000,1,Pune,Full Time,SDE
+4.1,7Tech,Front End Developer,300000,1,Pune,Full Time,Frontend
+3.4,A&W,Software Development Engineer In Test (SDET),1200000,1,Pune,Full Time,SDE
+3.7,A.D.A.M.,Front End Developer,408000,1,Pune,Full Time,Frontend
+3.8,â€ŽeNotice Ninja Pluss,Android Developer,400000,1,Pune,Full Time,Android
+3.9,A2Z Bazar,Software Development Engineer In Test (SDET),60000,1,Pune,Full Time,SDE
+3.9,aA,Software Development Engineer (SDE),1100000,1,Pune,Full Time,SDE
+3.9,Aadya Infotech,Android Developer,700000,1,Pune,Full Time,Android
+3.9,Aakash Educational Services,Android Developer,348000,1,Pune,Full Time,Android
+5,Aakash Informatics,Backend Developer,200000,1,Pune,Full Time,Backend
+3.9,AArete,Software Development Engineer (SDE) II,200000,1,Pune,Full Time,SDE
+4.2,Aarna Systems,Android Developer,444000,2,Pune,Full Time,Android
+4.2,Aarna Systems,Front End Developer,500000,2,Pune,Full Time,Frontend
+1.8,Aarnum Technologies,Front End Developer - Intern,108000,1,Pune,Intern,Frontend
+3.4,AavidSoft,Semi Senior IOS Developer,180000,2,Pune,Full Time,IOS
+4.5,Aayansh Germinate,Android Developer,216000,1,Pune,Full Time,Android
+3.9,Ab,Software Development Engineer,600000,1,Pune,Full Time,SDE
+3.9,ab,Software Development Engineer (SDE) II,2800000,1,Pune,Full Time,SDE
+3.9,ABC,IOS Developer,900000,1,Pune,Full Time,IOS
+3.9,ABC,Senior IOS Developer,408000,1,Pune,Full Time,IOS
