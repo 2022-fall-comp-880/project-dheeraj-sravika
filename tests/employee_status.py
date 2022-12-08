@@ -71,7 +71,7 @@ class EmployeeStatus(unittest.TestCase):
 
     def test_fifty_entries(self):
         """Test case 2 using fifty.csv with fifty rows."""
-        actual_result = self.tasks_50.result()
+        actual_result = self.tasks_50.status()
         expected_result = {
             "Bangalore": {
                 "Full Time": {
@@ -94,3 +94,18 @@ class EmployeeStatus(unittest.TestCase):
             },
         }
         self.assertEqual(actual_result, expected_result)
+
+    def test_ten_entries(self):
+        """Test case 3 using ten.csv with ten rows."""
+        actual_result = self.tasks_10.status()
+        expected_result = {
+            "Bangalore": {
+                "Full Time": {"Backend", "Database", "Frontend", "Mobile",
+                              "SDE", "Web"}
+            }
+        }
+        self.assertEqual(actual_result, expected_result)
+
+
+if __name__ == "__main__":
+    unittest.main()
