@@ -21,6 +21,7 @@ class Data:
         return self.dataset
 
     def read(self, file: str):
+        """Reads the data file."""
         data = []
         with open(file, newline="", encoding="utf-8") as f:
             op = csv.reader(f)
@@ -28,3 +29,14 @@ class Data:
             for row in op:
                 data.append(row)
         return data
+
+    def count(self, city_name: str) -> dict:
+        """Counts the employment status in a particular city."""
+        output = {}
+        for row in self.dataset:
+            if row[5] == city_name:
+                if row[-2] in output:
+                    output[row[-2]] += 1
+                else:
+                    output[row[-2]] = 1
+        return output
