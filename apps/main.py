@@ -18,17 +18,18 @@ class Data:
 
     def __str__(self):
         """Convert to string representation."""
-        return self.dataset
+        return str(self.dataset)
 
-    def read(self, file: str):
+    @staticmethod
+    def read(file: str):
         """Reads the data file."""
-        data = []
+        list_data = []
         with open(file, newline="", encoding="utf-8") as f:
             op = csv.reader(f)
             next(op, None)
             for row in op:
-                data.append(row)
-        return data
+                list_data.append(row)
+        return list_data
 
     def count(self, city_name: str) -> dict:
         """Counts the employment status in a particular city."""
@@ -52,3 +53,14 @@ class Data:
             else:
                 output[row[5]][row[-2]] = {row[-1]}
         return output
+
+
+if __name__ == "__main__":
+
+    data = Data()
+    input_text = data.read("../data/data.txt")
+
+    city = "Hyderabad"
+    value = Data.count(dataset=input_text)
+    print("Counts: ", value.count(city_name=city))
+
