@@ -1,25 +1,26 @@
 import os
 import unittest
 from apps.main import Data
-from apps.main import EmployeeStatus
+from apps.employee_status import EmployeeStatus
 
 
 class EmployeeStatus(unittest.TestCase):
-    """EmployeeStatus class."""
+    """Test EmployeeStatus class."""
 
     def setUp(self):
         """Create Tasks objects for the three testing cases."""
-        data_dir = os.path.dirname(_file_) + "/data"
-        data_10 = Data.read(f"{data_dir}/ten.csv")
-        self.tasks_10 = EmployeeStatus(data_10)
-        data_5 = Data.read(f"{data_dir}/fifty.csv")
-        self.tasks_50 = EmployeeStatus(data_5)
-        data_all = Data.read(f"{data_dir}/all.csv")
-        self.tasks_all = EmployeeStatus(data_all)
+        data_dir = os.path.dirname(__file__) + "\..\data"
+        df_10 = Data.read(f"{data_dir}\data_10.csv")
+        self.tasks_10 = EmployeeStatus(df_10)
+
+        df_50 = Data.read(f"{data_dir}\data_50.csv")
+        self.tasks_50 = EmployeeStatus(df_50)
+        df = Data.read(f"{data_dir}\data.csv")
+        self.tasks_all = EmployeeStatus(df)
 
     def test_multiple_entries(self):
         """Test case 1 using all.csv."""
-        actual_result = self.tasks_all.status()
+        actual_result = self.tasks_all.result()
         expected_result = {
             "Bangalore": {
                 "Full Time": {
@@ -56,8 +57,7 @@ class EmployeeStatus(unittest.TestCase):
             "Kerala": {"Full Time": {"SDE"}, "Contractor": {"SDE"}},
             "Kolkata": {"Intern": {"SDE"}, "Full Time": {"SDE"}},
             "Madhya Pradesh": {"Full Time": {"SDE"}, "Intern": {"SDE"}},
-            "Mumbai": {"Full Time": {"SDE"}, "Contractor": {"SDE"}, "Intern":
-                        {"SDE"}},
+            "Mumbai": {"Full Time": {"SDE"}, "Contractor": {"SDE"}, "Intern": {"SDE"}},
             "New Delhi": {
                 "Full Time": {"Backend", "SDE", "Android", "IOS", "Frontend"},
                 "Intern": {"Android", "SDE"},
@@ -71,7 +71,7 @@ class EmployeeStatus(unittest.TestCase):
 
     def test_fifty_entries(self):
         """Test case 2 using fifty.csv with fifty rows."""
-        actual_result = self.tasks_50.status()
+        actual_result = self.tasks_50.result()
         expected_result = {
             "Bangalore": {
                 "Full Time": {
@@ -97,11 +97,10 @@ class EmployeeStatus(unittest.TestCase):
 
     def test_ten_entries(self):
         """Test case 3 using ten.csv with ten rows."""
-        actual_result = self.tasks_10.status()
+        actual_result = self.tasks_10.result()
         expected_result = {
             "Bangalore": {
-                "Full Time": {"Backend", "Database", "Frontend", "Mobile",
-                              "SDE", "Web"}
+                "Full Time": {"Backend", "Database", "Frontend", "Mobile", "SDE", "Web"}
             }
         }
         self.assertEqual(actual_result, expected_result)
