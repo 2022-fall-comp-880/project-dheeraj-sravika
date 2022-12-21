@@ -6,22 +6,15 @@ Authors:
   Sravika - https://github.com/ss1883
 """
 import csv
+"""Reads & Writes data from csv file."""
 
 
 class Data:
     """Data class reads the CSV file and
     stores the data into list of lists."""
 
-    def __init__(self, dataset) -> None:
-        """Initializes the class attributes"""
-        self.dataset = dataset
-
-    def __str__(self):
-        """Convert to string representation."""
-        return str(self.dataset)
-
-    @staticmethod
-    def read(file: str):
+    @classmethod
+    def read(cls, file: str):
         """Reads the data file."""
         list_data = []
         with open(file, newline="", encoding="utf-8") as f:
@@ -31,36 +24,22 @@ class Data:
                 list_data.append(row)
         return list_data
 
-    def count(self, city_name: str) -> dict:
-        """Counts the employment status in a particular city."""
-        output = {}
-        for row in self.dataset:
-            if row[5] == city_name:
-                if row[-2] in output:
-                    output[row[-2]] += 1
-                else:
-                    output[row[-2]] = 1
-        return output
 
-    def status(self) -> dict:
-        """List of job roles with an employment status for each city."""
-        output = {}
-        for row in self.dataset:
-            if row[5] not in output:
-                output[row[5]] = dict()
-            if row[-2] in output[row[5]]:
-                output[row[5]][row[-2]].add(row[-1])
-            else:
-                output[row[5]][row[-2]] = {row[-1]}
-        return output
+def main():
+    """Program Starts from here."""
+    from status_count import Count
+    from employee_status import EmployeeStatus
+
+    my_data = Data()
+    dataset = my_data.read("../data/data.csv")
+
+    city = "Hyderabad"
+    count = Count(dataset=dataset)
+    print(f"Job Role Counts at {city}: ", count.count(city_name=city))
+
+    employee_status = EmployeeStatus(dataset=dataset)
+    print(employee_status.result())
 
 
 if __name__ == "__main__":
-
-    data = Data()
-    input_text = data.read("../data/data.txt")
-
-    city = "Hyderabad"
-    value = Data.count(dataset=input_text)
-    print("Counts: ", value.count(city_name=city))
-
+    main()
