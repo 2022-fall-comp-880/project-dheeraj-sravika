@@ -8,5 +8,5 @@ class Ranges:
         output = set()
         for row in self.dataset:
             if (row[5] == city_name) and (low < int(row[3]) < high):
-                output.add(row[-2])
+                output.add(row[-1])
         return output

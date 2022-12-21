@@ -42,9 +42,9 @@ def main():
     print(f"Job Role Counts at {city}: ", count.count(city_name=city))
 
     job_roles = Ranges(dataset=dataset)
-    low = 180000
+    low = 500000
     high = 1000000
-    print(f"Job Roles at city: {city} between salary {low} and {high}: ")
+    print(f"Job Roles at {city} with salary range between {low} and {high}: ")
     print(job_roles.roles(city_name=city, low=low, high=high))
 
     employee_status = EmployeeStatus(dataset=dataset)
