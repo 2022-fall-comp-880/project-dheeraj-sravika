@@ -143,13 +143,75 @@ This test scenario is when wrong city name has been given. As expected, it shoul
 - Call the `count()` method with the given wrong city name and store the result in `actual_result` variable.
 - Compare the `actual_result` and `expected_result` with respective `assert` statement.
 
+### 3.2. `test_ranges.py`
+
+Test cases for testing the `roles()` method for class `JobRoles` in task2 file. 
+There are three test scenarios inside this test file with salary range fixed 
+across all the three scenarios.
+
+#### 3.2.1 `test_valid_name`
+
+This test scenario is when a valid city name has been given. As expected, it should return a set of Job Roles.
+
+- Call the `roles()` method with the valid city name, fixed salary range and store the result in `actual_result` variable.
+- Compare the `actual_result` and `expected_result` with respective `assert` statement.
+
+#### 3.2.2 `test_empty_name`
+
+This test scenario is when no city name has been given. As expected, it should return an empty set.
+
+- Call the `roles()` method with the valid city name, fixed salary range and store the result in `actual_result` variable.
+- Compare the `actual_result` and `expected_result` with respective `assert` statement.
+
+#### 3.2.3 `test_wrong_name`
+
+This test scenario is when wrong city name has been given. As expected, it should return an empty set as the city name is not available in the dataset.
+
+- Call the `roles()` method with the valid city name, fixed salary range and store the result in `actual_result` variable.
+- Compare the `actual_result` and `expected_result` with respective `assert` statement.
+
+### 3.3. `test_status.py`
+
+Test cases for testing the `result()` method for class `EmployeeStatus` in task3 file. There are three test scenarios inside this test file.
+
+#### 3.3.1 `test_multiple_entries`
+
+This test scenario takes in `all.csv` file (full data). As expected, it should return a dictionary the job roles for an employment status across all the cities.
+
+- Call the `result()` method and store the result in `actual_result` variable.
+- Compare the `actual_result` and `expected_result` with respective `assert` statement.
+
+#### 3.3.2 `test_fifty_entries`
+
+This test scenario takes in `fifty.csv` file (fifty records). As expected, it should return a dictionary the job roles for an employment status across all the cities.
+
+- Call the `result()` method and store the result in `actual_result` variable.
+- Compare the `actual_result` and `expected_result` with respective `assert` statement.
+
+#### 3.3.3 `test_ten_entries`
+
+This test scenario takes in `ten.csv` file (ten records). As expected, it should return a dictionary the job roles for an employment status across all the cities.
+
+- Call the `result()` method and store the result in `actual_result` variable.
+- Compare the `actual_result` and `expected_result` with respective `assert` statement.
+
 ## 4. Results
 
 ```bash
-# Output of the task 1. Showing the counts of Job Status Categories for the City: Hyderabad
-Counts:  {'Full Time': 19, 'Intern': 6}
+# Output of the task 1. 
+# Showing the counts of Job Status categories for the city: Hyderabad
+Count of Job Roles at Hyderabad:  {'Full Time': 19, 'Intern': 6}
 
 
+# Output of the task 2.
+# Showing the Job Roles that fall between the given salary range of a city.
+Job Roles at Hyderabad with salary range between 500000 and 1000000: 
+{'SDE', 'Java', 'Testing', 'Android'}
+
+
+# Output of the task 3. 
+# Showing the job roles with an employment status for each city in the dataset.
+{'Bangalore': {'Full Time': {'Web', 'Mobile', 'IOS', 'Frontend', 'Android', 'SDE', 'Python', 'Backend', 'Database', 'Testing'}, 'Intern': {'Frontend'}}, 'Chennai': {'Full Time': {'Frontend', 'Android', 'SDE', 'Java', 'Python'}, 'Intern': {'SDE', 'Python'}}, 'Hyderabad': {'Full Time': {'Frontend', 'Android', 'SDE', 'Java', 'Python', 'Backend', 'Testing'}, 'Intern': {'Android', 'Frontend', 'SDE', 'Java', 'Python'}}, 'Jaipur': {'Intern': {'SDE'}, 'Full Time': {'SDE'}}, 'Kerala': {'Full Time': {'SDE'}, 'Contractor': {'SDE'}}, 'Kolkata': {'Intern': {'SDE'}, 'Full Time': {'SDE'}}, 'Madhya Pradesh': {'Full Time': {'SDE'}, 'Intern': {'SDE'}}, 'Mumbai': {'Full Time': {'SDE'}, 'Contractor': {'SDE'}, 'Intern': {'SDE'}}, 'New Delhi': {'Full Time': {'IOS', 'Frontend', 'Android', 'SDE', 'Backend'}, 'Intern': {'SDE', 'Android'}}, 'Pune': {'Full Time': {'IOS', 'Android', 'Frontend', 'SDE', 'Backend'}, 'Intern': {'Frontend'}}}
 ```
 
 ## 5. Evaluation
