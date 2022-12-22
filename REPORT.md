@@ -8,30 +8,35 @@
 
 Dataset used in the project is `Software Industry Salary Dataset - 2022`.
 
-Dataset Source is from Kaggle: [Link to Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/software-professional-salaries-2022?select=Salary_Dataset_with_Extra_Features.csv)
+Dataset Source is from Kaggle: 
+[Link to Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/software-professional-salaries-2022?select=Salary_Dataset_with_Extra_Features.csv)
 
 Sourav Banerjee is the owner of the Dataset. Data has been collated from [Glassdoor](https://www.glassdoor.co.in/).
 
 Dataset has been last updated on July 2022.
 
 
-In this project we are going to investigate on three queries. For each of the queries we are going to write a class to provide an answer.
+In this project we are going to investigate on three queries. For each of the 
+queries we are going to write a class to provide an answer.
 
-1. Number of employment status categories in a particular city?
 
-2. In a given city list of all the job roles that have salary in given range?
+1. Count of Employment Status (Full Time, Contractor, Intern) in a particular city.
 
-3. List of all the job roles for an employment status across all the cities?
+2. List of Job Roles that fall between the given salary range of a city.
+
+3. List of Job Roles with an Employment Status for each city in the dataset.
 
 ## 2. Approach
 
 - `main.py` file for reading dataset
 
-The dataset is available in CSV format. First the CSV file has been read `csv` python module. Here each line of the CSV file will be stored as a list of lists and each element of that list will be a element of each line of the CSV file.
+The dataset is available in CSV format. First the CSV file has been read `csv` 
+python module. Here each line of the CSV file will be stored as a list of lists 
+and each element of that list will be an element of each line of the CSV file.
 
-###  Number of employment status categories in a particular city?
+###  Count of Employment Status (Full Time, Contractor, Intern) in a particular city.
 
-`Count` class contains `count()` method answers this query inside `task1.py` file.
+`Count` class contains `count()` method answers this query inside `status_count.py` file.
 
 ```
 class Count:
@@ -51,8 +56,63 @@ class Count:
 
 Design
 
-- Loop through all the employees dataset and count the employee status if the employee city is same as the one provided as an argument and add to the `output` dictionary.
+- Loop through all the employees dataset and count the employee status if the 
+employee city is same as the one provided as an argument and add to the `output` dictionary.
 - Once the all the players are looped return the `output`.
+
+### List of Job Roles that fall between the given salary range of a city.
+
+`Ranges` class contains `roles()` method answers this query inside `salary_range.py` file.
+
+```
+class Ranges:
+
+    Attributes
+    ----------
+    dataset: List[List]
+        Holds all the employees data read from the csv file
+    city_name: str
+        City Name
+    low: int
+        Lowest Salary range
+    high: int
+        Highest Salary range
+
+    Methods
+    -------
+    roles(city_name, low, high) -> Set
+        Returns set of all the Job Roles in the give city and salary range [low, high]
+```
+
+Design
+
+- Loop through all the employees dataset and filter out employees whose city matches with `city_name` and employees salary lies between `low` and `high` and add employee's job role to the `output` set.
+- Once the all the players are looped return the `output`.
+
+### List of Job Roles with an Employment Status for each city in the dataset.
+
+`EmployeeStatus` class contains `result()` method answers this query inside `employee_status.py` file.
+
+```
+class EmployeeStatus:
+
+    Attributes
+    ----------
+    dataset: List[List]
+        Holds all the employees data read from the csv file
+    
+    Methods
+    -------
+    result() -> Dict
+        Return dictionary of the job roles for an employment status across all the cities
+        where job roles are combined in a set and form keys for employement status.
+```
+
+Design
+
+- Loop through the dataset and return a dictionary containing city as keys and 
+a dictionary of status as keys, job roles as values.
+
 
 ## 3. Testing
 
