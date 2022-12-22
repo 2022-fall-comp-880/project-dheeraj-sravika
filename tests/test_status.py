@@ -19,7 +19,7 @@ class Status(unittest.TestCase):
         self.tasks_all = EmployeeStatus(df)
 
     def test_multiple_entries(self):
-        """Test case 1 using all.csv."""
+        """Test case 1 using data.csv."""
         actual_result = self.tasks_all.result()
         expected_result = {
             "Bangalore": {
@@ -57,7 +57,8 @@ class Status(unittest.TestCase):
             "Kerala": {"Full Time": {"SDE"}, "Contractor": {"SDE"}},
             "Kolkata": {"Intern": {"SDE"}, "Full Time": {"SDE"}},
             "Madhya Pradesh": {"Full Time": {"SDE"}, "Intern": {"SDE"}},
-            "Mumbai": {"Full Time": {"SDE"}, "Contractor": {"SDE"}, "Intern": {"SDE"}},
+            "Mumbai": {"Full Time": {"SDE"}, "Contractor": {"SDE"},
+                       "Intern": {"SDE"}},
             "New Delhi": {
                 "Full Time": {"Backend", "SDE", "Android", "IOS", "Frontend"},
                 "Intern": {"Android", "SDE"},
@@ -100,7 +101,8 @@ class Status(unittest.TestCase):
         actual_result = self.tasks_10.result()
         expected_result = {
             "Bangalore": {
-                "Full Time": {"Backend", "Database", "Frontend", "Mobile", "SDE", "Web"}
+                "Full Time": {"Backend", "Database", "Frontend", "Mobile",
+                              "SDE", "Web"}
             }
         }
         self.assertEqual(actual_result, expected_result)
