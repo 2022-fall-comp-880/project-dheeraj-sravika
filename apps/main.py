@@ -17,10 +17,10 @@ class Data:
     stores the data into list of lists."""
 
     @classmethod
-    def read(cls, file: str):
+    def read(cls, data_file: str):
         """Reads the data file."""
         list_data = []
-        with open(file, newline="", encoding="utf-8") as f:
+        with open(data_file, newline="", encoding="utf-8") as f:
             op = csv.reader(f)
             next(op, None)
             for row in op:
@@ -47,7 +47,7 @@ def main():
     city = "Hyderabad"
     print("Q2. Count of Employment Status in a particular city:")
     count = Count(dataset=dataset)
-    print(f"Job Role Counts at {city}: ", count.count(city_name=city))
+    print(f"Count of Job Roles at {city}: ", count.count(city_name=city))
     print("\n")
 
     # Investigation Question 3
