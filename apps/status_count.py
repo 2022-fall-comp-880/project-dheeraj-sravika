@@ -1,3 +1,5 @@
+"""Represent a module for job employment status count."""
+
 
 class Count:
     """Represent a module for job employment status count."""

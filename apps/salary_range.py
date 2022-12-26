@@ -1,3 +1,5 @@
+"""Represent a module for of job roles between the given salary range."""
+
 
 class Ranges:
     """Represent a module for of job roles between the given salary range."""
