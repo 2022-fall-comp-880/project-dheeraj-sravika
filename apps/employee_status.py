@@ -1,4 +1,4 @@
-"""Represents Module for Employment Status."""
+"""Employment Status Module."""
 
 
 class EmployeeStatus:
