@@ -1,8 +1,8 @@
+"""Import required packages for the test cases."""
 import os
 import unittest
 from apps.main import Data
 from apps.status_count import Count
-"""Import required packages for the test cases."""
 
 
 class TestCount(unittest.TestCase):

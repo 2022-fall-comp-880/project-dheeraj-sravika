@@ -1,8 +1,8 @@
+"""Import required packages for the test cases."""
 import os
 import unittest
 from apps.main import Data
 from apps.salary_range import Ranges
-"""Import required packages for the test cases."""
 
 
 class TestJobRoles(unittest.TestCase):
