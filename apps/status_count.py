@@ -1,5 +1,6 @@
+
 class Count:
-    """Class module for job employment status count."""
+    """Represent a module for job employment status count."""
 
     def __init__(self, dataset) -> None:
         """Initialize the class attributes."""

@@ -1,5 +1,6 @@
+
 class Ranges:
-    """List of job roles that fall between the given salary range of a city."""
+    """Represent a module for of job roles between the given salary range."""
 
     def __init__(self, dataset) -> None:
         """Initialize the class attributes."""
