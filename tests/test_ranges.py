@@ -2,6 +2,7 @@ import os
 import unittest
 from apps.main import Data
 from apps.salary_range import Ranges
+"""Import required packages for the test cases."""
 
 
 class TestJobRoles(unittest.TestCase):
@@ -28,7 +29,7 @@ class TestJobRoles(unittest.TestCase):
         self.assertEqual(actual_result, expected_result)
 
     def test_another(self):
-        """Test case 3 using all.csv and valid city"""
+        """Test case 3 using all.csv and valid city."""
         actual_result = self.tasks_all.roles("Pune", 439999, 2040249)
         expected_result = {'Android', 'Frontend', 'IOS', 'SDE'}
         self.assertEqual(actual_result, expected_result)
