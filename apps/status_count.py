@@ -2,7 +2,7 @@ class Count:
     """Class module for job employment status count."""
 
     def __init__(self, dataset) -> None:
-        """Initializes the class attributes"""
+        """Initialize the class attributes."""
         self.dataset = dataset
 
     def count(self, city_name: str) -> dict:
