@@ -10,8 +10,8 @@ class TestCount(unittest.TestCase):
 
     def setUp(self):
         """Create Tasks objects for the three testing cases."""
-        data_dir = os.path.dirname(__file__) + "\\..\\data"
-        dataset = Data.read(f"{data_dir}\\data.csv")
+        data_dir = os.path.dirname(__file__) + "//..//data"
+        dataset = Data.read(f"{data_dir}//data.csv")
         self.tasks_all = Count(dataset)
 
     def test_valid_name(self):
