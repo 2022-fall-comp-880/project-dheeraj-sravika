@@ -13,12 +13,11 @@ from apps.salary_range import Ranges
 
 
 class Data:
-    """Data class reads the CSV file and
-    stores the data into list of lists."""
+    """Read the CSV file and stores the data into list of lists."""
 
     @classmethod
     def read(cls, data_file: str):
-        """Reads the data file."""
+        """Read the file from the dataset."""
         list_data = []
         with open(data_file, newline="", encoding="utf-8") as f:
             op = csv.reader(f)
