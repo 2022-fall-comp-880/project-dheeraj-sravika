@@ -1,8 +1,11 @@
+"""Employment Status Module."""
+
+
 class EmployeeStatus:
-    """Class module for employment status for each city."""
+    """Represent a module for employment status."""
 
     def __init__(self, dataset) -> None:
-        """Initializes the class attributes."""
+        """Initialize the class attributes."""
         self.dataset = dataset
 
     def result(self) -> dict:
