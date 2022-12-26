@@ -10,8 +10,8 @@ class Status(unittest.TestCase):
 
     def setUp(self):
         """Create Tasks objects for the three testing cases."""
-        data_dir = os.path.dirname(__file__) + "\\..\\data"
-        df_10 = Data.read(f"{data_dir}\\data_10.csv")
+        data_dir = os.path.dirname(__file__) + "//..//data"
+        df_10 = Data.read(f"{data_dir}//data_10.csv")
         self.tasks_10 = EmployeeStatus(df_10)
 
         df_50 = Data.read(f"{data_dir}\\data_50.csv")
