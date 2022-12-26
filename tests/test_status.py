@@ -14,9 +14,9 @@ class Status(unittest.TestCase):
         df_10 = Data.read(f"{data_dir}//data_10.csv")
         self.tasks_10 = EmployeeStatus(df_10)
 
-        df_50 = Data.read(f"{data_dir}\\data_50.csv")
+        df_50 = Data.read(f"{data_dir}//data_50.csv")
         self.tasks_50 = EmployeeStatus(df_50)
-        df = Data.read(f"{data_dir}\\data.csv")
+        df = Data.read(f"{data_dir}//data.csv")
         self.tasks_all = EmployeeStatus(df)
 
     def test_multiple_entries(self):
